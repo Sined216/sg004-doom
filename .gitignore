@@ -1,0 +1,30 @@
+# build products
+out/
+build/
+**/build/
+*.elf
+*.exe
+*.o
+*.map
+__pycache__/
+*.pyc
+*.stackdump
+
+# game data and everything made from it must never be committed
+*.wad
+*.WAD
+*.uf2
+SG004_*.bin
+doom.internal.bin
+doom.nor.*
+DOOM.DAT
+gen/
+packs/
+
+# fetched at build time
+firmware/doom/dmc100/oracle/src/
+dl/
+
+# the owner's backup of the external flash holds personal data
+NOR.BIN
+NORBACKUP/

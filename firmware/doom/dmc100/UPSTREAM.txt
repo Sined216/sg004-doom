@@ -1,0 +1,10 @@
+DMC100-Doom by Artur Bieniek, https://github.com/ArturBieniek4/DMC100-Doom
+Commit 0cdc78eb66cdddacc43112d5f79c258c4a5440b7 (cloned 2026-10-28), GPL-2.0-or-later (see COPYING, LICENSES).
+Vendored here: engine/, port/, platform/ (headers and reference drivers), tools/ (data converter), oracle/fetch.sh.
+Not vendored: tests/, host/, controller/, mk/, the oracle checkout and the Makefile.
+Local changes to these files are listed below; keep them minimal.
+
+Local changes:
+- tools/conv/__main__.py: option --capacity BYTES sets format.DOOMDAT_CAP (the size the ladder in pack.py fits the image to).
+- engine/g_game.c: G_DoCompleted returns to the title when built with -DSG_NO_INTERMISSION (one-map data, no intermission lumps).
+- engine/d_event.c: MAXEVENTS is taken from -DSG_MAXEVENTS when given (the SG-004A input posts several events per call; the stock ring of 2 dropped key-ups).
