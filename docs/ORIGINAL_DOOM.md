@@ -4,17 +4,17 @@ The repository does not contain Doom's data and the prebuilt releases do not eit
 data on your own machine from the shareware episode (or from your own copy of `DOOM1.WAD`). The result is for your own
 device: do not publish it (see [NOTICE.md](../NOTICE.md)).
 
-1. Do the backup step of the main [README](../README.md#install) first (`SG004_NORBACKUP.bin`, keep `NOR.BIN`).
-2. Build, with your backup, either from the downloaded shareware WAD (the archive and the WAD are checked against known SHA-256/SHA-1)
+1. Optionally back up the external flash with the `SG004_NORBACKUP.bin` you built (keep `NOR.BIN`) and add `--backup NOR.BIN` to the command below. Without it the build works too.
+2. Build either from the downloaded shareware WAD (the archive and the WAD are checked against known SHA-256/SHA-1)
 
    ```sh
-   scripts/build.sh original --backup NOR.BIN
+   scripts/build.sh original
    ```
 
    or from a shareware `DOOM1.WAD` 1.9 you already have (the registered game's `DOOM.WAD` has not been tried)
 
    ```sh
-   scripts/build.sh original --wad /path/to/DOOM1.WAD --backup NOR.BIN
+   scripts/build.sh original --wad /path/to/DOOM1.WAD
    ```
 
    The script cuts out the screens a one-map build never shows (intermission, help, credits, finale pictures), converts

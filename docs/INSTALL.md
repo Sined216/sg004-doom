@@ -1,6 +1,6 @@
 # Safety and rollback
 
-The steps are in the [README](../README.md#install). This page says what the tools write, where, and how to go back.
+The steps are in the [README](../README.md). This page says what the tools write, where, and how to go back.
 
 ## What is written
 
