@@ -1,5 +1,7 @@
 # Doom на FNIRSI SG-004A
 
+<p align="center"><img src="docs/img/doom-1.jpg" width="300"> <img src="docs/img/doom-2.jpg" width="300"></p>
+
 Первый уровень Doom (E1M1) на генераторе сигналов FNIRSI SG-004A. Движок: [DMC100-Doom](https://github.com/ArturBieniek4/DMC100-Doom).
 Графика Freedoom (оригинальную можно собрать из вашего WAD, см. [docs](docs/ORIGINAL_DOOM.ru.md)). Звука и сохранений нет.
 
@@ -43,6 +45,8 @@ GPL-2.0-or-later ([LICENSE](LICENSE), [NOTICE](NOTICE.md)); данных игр�
 ---
 
 # Doom on the FNIRSI SG-004A
+
+<p align="center"><img src="docs/img/doom-1.jpg" width="300"> <img src="docs/img/doom-2.jpg" width="300"></p>
 
 E1M1 of Doom on the FNIRSI SG-004A signal generator. Engine: [DMC100-Doom](https://github.com/ArturBieniek4/DMC100-Doom).
 Freedoom art (the original art can be built from your own WAD, see [docs](docs/ORIGINAL_DOOM.md)). No sound, no saves.
